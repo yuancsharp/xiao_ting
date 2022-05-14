@@ -41,7 +41,7 @@ audio {
   z-index: 5;
   position: absolute;
   bottom: 0;
-  
+  opacity: 0.1;
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
   -ms-transition: all 2s;
@@ -50,7 +50,7 @@ audio {
 }
 
 audio:hover {
-  
+  opacity: 1;
 }
 
 /* 打字 */
